@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kababjees Fried Chicken | Fast, Fresh and Flavorful! | Clone | Made By Azka Azeem</title>
+    <!-- FONTAWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- FONTAWESOME JAVASCRIPT CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js"
+        integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+
+    <!-- BOOTSTRAP CSS LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="
+    anonymous">
+
+    <!-- BOOTSTRAP JAVASCRIPT CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- GOOGLE FONT POPPINS LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Boldonse&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- ANIMATION -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- STYLE SHEET LINK -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FAVICON LINK -->
+    <link rel="shortcut icon" href="pics/0- favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <img src="pics/01-top.png" alt="" id="top-img">
+    <nav id="navbar">
+
+        <div id="location-btn-phone-no">
+            <div>
+                <button class="location-btn">
+                    <span id="span-icon"><i class="fa-solid fa-location-dot"></i></span>
+                    <span class="loc-text">
+                        <span class="change">Change Location</span>
+                        <span class="place">Abbottabad Lines</span>
+                    </span>
+                </button>
+            </div>
+
+            <div>
+                <button id="phone-no">
+                    <i class="fa-solid fa-phone"></i>
+                    <p id="phone-nmbr">021-111-666-111</p>
+                </button>
+            </div>
+        </div>
+
+        <div id="ab"><img src="pics/00-logo.png" alt="" id="logo-img"></div>
+
+        <div id="submit-btn-cart-Icon-hamburger">
+            <button id="submit-btn">Submit Your Complaint</button>
+            <div><img src="pics/03- cart.webp" alt="" id="cart"></div>
+            <div id="hori-line">|</div>
+
+            <div id="hamburger">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" id="ham-btn"><img
+                        src="pics/05- hambur.webp" alt="" id="hambur-img"></button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasRightLabel"></h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close" id="close-btn"></button>
+                    </div>
+                    <div class="offcanvas-body" id="offcanvas-body">
+                        <button onclick="window.open('index2.html', '_blank')">Submit your compaint</button>
+                        <button onclick="window.open('index3.html', '_blank')">Our Locations</button>
+                        <button onclick="window.open('index4.html', '_blank')">Blog</button>
+                        <button onclick="window.open('index5.html', '_blank')">Bank Discounts</button>
+                        <p>Powered by <a href="">Indolj</a></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="foreward-outer-img">
+        <img src="pics/06.webp" alt="" id="foreward-inner-img">
+    </div>
+
+    <section>
+        <div class="container mt-4">
+            <div class="slider-container">
+                <div class="slider-track" id="imageRow">
+
+                    <a href="#summer-deal">
+                        <img src="pics/07.webp" alt="">
+                        <p>Summer Deals</p>
+                    </a>
+
+                    <a href="#original-korean">
+                        <img src="pics/08.webp" alt="">
+                        <p>The Original <br> Korean Range</p>
+                    </a>
+
+                    <a href="#wing-it">
+                        <img src="pics/09.webp" alt="">
+                        <p>Wing it (8 Pc <br> Buckets)</p>
+                    </a>
+
+                    <a href="#">
+                        <img src="pics/10.webp" alt="">
+                        <p>Something Sweet</p>
+                    </a>
+
+                    <a href="#">
+                        <img src="pics/11.webp" alt="">
+                        <p>New Arrival</p>
+                    </a>
+
+                    <a href="#">
+                        <img src="pics/12.webp" alt="">
+                        <p>Its Fishtastic</p>
+                    </a>
+
+                    <a href="#">
+                        <img src="pics/13.webp" alt="">
+                        <p>Chicky Bits</p>
+                    </a>
+
+                    <a href="#">
+                        <img src="pics/14.webp" alt="">
+                        <p>Meal Deals</p>
+                    </a>
+
+                    <a href="#">
+                        <img src="pics/15.webp" alt="">
+                        <p>Exclusive Family <br> Deals</p>
+                    </a>
+
+                    <a href="#">
+                        <img src="pics/16.webp" alt="">
+                        <p>Ice Cream Shakes</p>
+                    </a>
+
+                    <a href="#">
+                        <img src="pics/17.webp" alt="">
+                        <p>Burgers & Deals</p>
+                    </a>
+
+                    <a href="#">
+                        <img src="pics/18.webp" alt="">
+                        <p>Kiddie Meal</p>
+                    </a>
+
+                    <a href="#">
+                        <img src="pics/19.webp" alt="">
+                        <p>Snacks</p>
+                    </a>
+
+                    <a href="#">
+                        <img src="pics/20.webp" alt="">
+                        <p>Berevages</p>
+                    </a>
+
+                </div>
+
+                <button class="arrow-btn left"
+                    onclick="document.getElementById('imageRow').scrollBy({left:-200, behavior:'smooth'})">‹</button>
+                <button class="arrow-btn right"
+                    onclick="document.getElementById('imageRow').scrollBy({left:200, behavior:'smooth'})">›</button>
+            </div>
+        </div>
+
+        <div id="search-bar">
+            <input type="text" placeholder="Search For">
+            <span id="icon"><i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+    </section>
+
+    <section id="summer-deal">
+        <section>
+            <div id="burger-section">
+                <img src="pics/21.webp" alt="" id="burger-section-img">
+            </div>
+        </section>
+
+        <section id="top-cards">
+            <div id="card-group">
+                <div class="card" style="width: 18rem;">
+                    <img src="pics/22.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">3 Pc STRIPZILLA+1.5 L...</h5>
+                        <div id="rupees" class="rupees">
+                            <h6>Rs. 1190</h6>
+                            <a href="#" class="btn btn-primary">ADD</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="card-group">
+                <div class="card" style="width: 18rem;">
+                    <img src="pics/23.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">SUMMER DEAL 1</h5>
+                        <p class="card-text">Chick N Crunch, Crispy Chicken Pc & Regular Drink [Can/345ml Drink]...</p>
+                        <div id="rupees">
+                            <h6>Rs. 620</h6>
+                            <a href="#" class="btn btn-primary">ADD</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id="original-korean">
+        <section>
+            <div id="burger-section">
+                <video muted autoplay loop>
+                    <source src="pics/24.webm">
+                </video>
+            </div>
+        </section>
+
+        <section id="top-cards">
+            <div id="card-group">
+                <div class="card" style="width: 18rem;">
+                    <img src="pics/25.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ORIGINAL KOREAN...</h5>
+                        <p class="card-text">Original Korean Burger x 2qty Original Korean Chicky Bites 9Pc Original...
+                        </p>
+                        <div id="rupees">
+                            <h6>Rs. 2990</h6>
+                            <a href="#" class="btn btn-primary">ADD</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="card-group">
+                <div class="card" style="width: 18rem;">
+                    <img src="pics/26.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ORIGINAL KOREAN...</h5>
+                        <p class="card-text">Crispy fries tossed in a tantalizing salsa powder, topped with our...</p>
+                        <div id="rupees">
+                            <h6>Rs. 650</h6>
+                            <a href="#" class="btn btn-primary">ADD</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="card-group">
+                <div class="card" style="width: 18rem;">
+                    <img src="pics/27.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ORIGINAL KOREAN RICE</h5>
+                        <p class="card-text">Fragrant rice, infused with a buttery richness, served with...</p>
+                        <div id="rupees">
+                            <h6>Rs. 490</h6>
+                            <a href="#" class="btn btn-primary">ADD</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="card-group">
+                <div class="card" style="width: 18rem;">
+                    <img src="pics/28.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ORIGNAL KOREAN...</h5>
+                        <p class="card-text">Indulge in our one of a kind burger featuring soft, handcrafted red buns...
+                        </p>
+                        <div id="rupees">
+                            <h6>Rs. 650</h6>
+                            <a href="#" class="btn btn-primary">ADD</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="card-group">
+                <div class="card" style="width: 18rem;">
+                    <img src="pics/29.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ORIGINAL KOREAN HO...</h5>
+                        <p class="card-text">Savor the perfect blend of heat and flavor with our crispy, golden
+                            wings,...
+                        </p>
+                        <div id="rupees">
+                            <h6>Rs. 699</h6>
+                            <a href="#" class="btn btn-primary">ADD</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="card-group">
+                <div class="card" style="width: 18rem;">
+                    <img src="pics/30.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ORIGINAL KOREAN...</h5>
+                        <p class="card-text">Bite-sized crispy chicken, coated in our mouthwatering Korean sauce,...</p>
+                        <div id="rupees">
+                            <h6>Rs. 650</h6>
+                            <a href="#" class="btn btn-primary">ADD</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    <section id="wing-it">
+        <section>
+            <div id="burger-section">
+                <img src="pics/31.webp" alt="" id="burger-section-img">
+            </div>
+        </section>
+
+        <section id="top-cards" class="cards-red-circle">
+            <div id="card-group">
+                <div class="card" style="width: 18rem; position: relative;">
+                    <img src="pics/32.webp" alt="" class="badge-img">
+                    <img src="pics/33.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PLAIN CRISPY WINGS...</h5>
+                        <p class="card-text">8 Pcs. Crisp to perfection, our crispy yet juicy bucket of wings.</p>
+                        <div id="rupees">
+                            <h6>Rs. 640</h6>
+                            <a href="#" class="btn btn-primary">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="card-group">
+                <div class="card" style="width: 18rem; position: relative;">
+                    <img src="pics/32.webp" alt="" class="badge-img">
+                    <img src="pics/34.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">SIZZLING SALSA...</h5>
+                        <p class="card-text">8 Pcs. Spices to perfection, dusted with our special sizzling salsa...</p>
+                        <div id="rupees">
+                            <h6>Rs. 640</h6>
+                            <a href="#" class="btn btn-primary">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="card-group">
+                <div class="card" style="width: 18rem; position: relative;">
+                    <img src="pics/32.webp" alt="" class="badge-img">
+                    <img src="pics/35.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">BUFFALO SPICY WINGS..</h5>
+                        <p class="card-text">8 pcs. Our crispy take on wings topped with tangy spicy buffalo...</p>
+                        <div id="rupees">
+                            <h6>Rs. 640</h6>
+                            <a href="#" class="btn btn-primary">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="card-group">
+                <div class="card" style="width: 18rem; position: relative;">
+                    <img src="pics/32.webp" alt="" class="badge-img">
+                    <img src="pics/36.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">THAI SWEET CHILLI...</h5>
+                        <p class="card-text">8 pcs. Crispy Fried wings, tossed in sweet yet spicy chili sauce for a...
+                        </p>
+                        <div id="rupees">
+                            <h6>Rs. 640</h6>
+                            <a href="#" class="btn btn-primary">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="card-group">
+                <div class="card" style="width: 18rem; position: relative;">
+                    <img src="pics/32.webp" alt="" class="badge-img">
+                    <img src="pics/37.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">HONEY MUSTARD...</h5>
+                        <p class="card-text">8 Pcs. Crispy fried wings, tossed in sweet yet delcious honey mustard...
+                        </p>
+                        <div id="rupees">
+                            <h6>Rs. 640</h6>
+                            <a href="#" class="btn btn-primary">ADD</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </section>
+
+    <footer>
+        <div id="footer-text">
+            <p id="heading">Kababjees Fried Chicken – Redefining the fast-food experience with its exceptional fried
+                chicken</p>
+
+            <p id="para">This haven for fried chicken enthusiasts serves up an array of tantalizing options, featuring a
+                menu that boasts the crispiest and most flavorful chicken in the city. At Kababjees Fried Chicken, each
+                dish is a masterpiece, from the classic Crispy Chicken to the ever-popular Crispy Zenga Burger.</p>
+            <p id="para" class="para2">Our Kababjees Fried Chicken menu is carefully curated to ensure every bite is a
+                delightful
+                experience. Whether you're craving Crispy Chicken Wings or the best fried chicken in Karachi, our menu
+                is designed to cater to all tastes. What sets us apart is our</p>
+        </div>
+
+        <div id="footer">
+            <div id="footer-logo-outer-div"><img src="pics/39.webp" alt="" id="footer-logo"></div>
+            <div id="info">
+                <h5>Information</h5>
+                <a href="">Our Location</a> <br>
+                <a href="">Blog</a> <br>
+                <a href="">Submit Your Complaint</a> <br>
+                <a href="">Bank Discount</a> <br>
+            </div>
+
+            <div id="footer-contact">
+                <h5>Contact Us</h5>
+                <a href="">021-111-666-111</a>
+            </div>
+
+            <div id="foot-contact">
+                <h5>Conta </h5>
+            </div>
+
+            <div id="foot-contact">
+                <h5>Contact Us</h5>
+            </div>
+
+            <div>
+                <img src="pics/38.webp" alt="" id="mobile-img">
+            </div>
+
+            <div>
+                <div id="app-getting">
+                    <h3>Get The App!</h3>
+                    <p>App is where the fun is! It`s Easy, Fast and Convenient.</p>
+                </div>
+
+                <div id="app-getting-img">
+                    <img src="pics/40.webp" alt="">
+                    <img src="pics/41.webp" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="last-gray-line">
+            <span>Powered by <a href="">Indolj </a>&nbsp;&nbsp;&nbsp; | </span>
+            <span>&nbsp;&nbsp;&nbsp;</span>
+            <a href=""> Privacy Policy </a>
+            <span>&nbsp;&nbsp;&nbsp;</span>
+            <span>|</span>
+            <span>&nbsp;&nbsp;&nbsp;</span>
+            <a href=""> Faqs</a>
+        </div>
+    </footer>
+
+    <div id="up-arrow-icon">
+        <a href="#navbar"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+
+    <div id="search-icon">
+        <a href="#search-bar"><i class="fa-solid fa-magnifying-glass"></i></a>
+    </div>
+</body>
+
+</html>
